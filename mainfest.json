@@ -1,20 +1,21 @@
 {
 "mainfest":2,
-"name":"hello",
+"name":"插件名",
 "version":"1.0.0",
-"description":"这是一个Chrome插件",
+"description":"这是一个Chrome插件描述",
 "permission":["contextMenus"],
 
 "content_scripts":
  	[{"matches":["<all_urls>"],
    	"js":"content.js",
-	 "run_at":"document_start"}]
+	"css":["content.css"],
+	"run_at":"document_start"}],
   
 "background“：
-  	{"scripts":["background.js"]}
+  	{"scripts":["background.js"]},
 	
   
 "browser_action":
-	"default_popup":"popup.html"}
+	{"default_popup":"popup.html"}
 	
 }
