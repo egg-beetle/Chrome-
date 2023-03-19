@@ -5,9 +5,11 @@ chrome.contextMenus.create(
    title:"鼠标右键、选中出现的标题“,
    contexts:["selection","link"],
    onclick:function(info)
-	   {console.log(info)}},
-  
+	   {console.log(info)}
+  },
   function(){})
+
+  
 chrome.contextMenus.create(
   
   {type:"checkbox",
@@ -15,5 +17,5 @@ chrome.contextMenus.create(
    contexts:["selection","link"],
    onclick:function(info)
 	   {consle.log(info)}
-	},
+  },
   function(){})
