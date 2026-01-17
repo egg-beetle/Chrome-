@@ -11,7 +11,7 @@
 	"css":["content.css"],
 	"run_at":"document_start"}],
   
-"background“：
+"background"：
   	{"scripts":["background.js"]},
 	
   
